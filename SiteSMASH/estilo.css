@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*editando o corpo*/
+body {
+	background-image: url(../fundo.png);
+    /*background-color: blue; */
+	font-family: verdana, Helvetica, sans-serif, Content-Type, Bernard MT Condensed;
+	font-size: 1px;
+	margin: 0px;
+	color: blue;
+}
+
+hr {
+	color: gold;
+	width: 90%;
+	align: center;
+	size: 25;
+	
+}
+
+/*editando imagem*/
+img {
+	align: center;
+	alt: logotipo;
+}
+/*editando o texto*/
+label {
+	color:gold;
+	font-family: verdana, Helvetica, sans-serif, Content-Type, "Bernard MT Condensed";
+}
+h1 {
+	color: white;
+	text-align: center;
+	letter-spacing: 20px;
+	word-spacing: 0px;
+	font-size: 100px;
+	font-family: "Colonna MT", cursive;
+}
+h2 {
+	color : white;
+	text-align: center;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	font-size: 20px;
+	font-family: Playfair Display;
+}
+h3 {
+	color: gold;
+	text-align: right;
+	font-size: 18px;
+	font-family: Droid Sans;
+}
+h4 {
+	color: white;
+	text-align: center;
+	word-spacing: 0px;
+	font-size: xx-large;
+	font-family: "Colonna MT";
+}
+div {
+    text-align: justify;
+	direction: rtl;
+}
+
+p {
+	color: gold;
+	text-align: center;
+	word-spacing: 0px;
+	font-size: medium;
+	font-family: verdana, Helvetica, sans-serif, Content-Type, Bernard MT Condensed;
+}
+p.small {
+    line-height: 23;
+}
+p.big {
+    line-height: 1.8;
+}
+
+/*editando o link*/
+a:link {
+	color: white;
+	background-color: nome;
+	text-decoration: none;
+}
+a:visited {
+	color: white;
+	background-color: nome;
+	text-decoration: none;
+}
+a:hover {
+	color: gold;
+	background-color: none;
+	text-decoration: white;
+}
+
+
+/*editando as tabelas*/
+th, td {
+	padding: 0px;
+	text-align: right;
+	border: 0px solid silver;
+	vertical-align:middle;
+	color: #FFF;
+}
+table {
+	width: 674;
+	border: 0;
+	width: 35%;
+	align: center;
+	text-align: left;
+	color: #FFD700;
+}
+
+
+*  {
+	padding:0;
+}
+ 
+html, body {height:100%;}
+ 
+
+.footer {
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height: 32px;
+}
+ 
+.content {overflow:hidden;}
+.aside {width:200px;}
+.fleft {float:left;}
+.fright {float:right;}
+.centro {
+	text-align: center;
+}
+.centro {
+
+}
+.centro #nome {
+	text-align: left;
+}
+.cadastro {
+	font-size: 18px;
+}
+
+input, textarea {
+    padding: 4px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 0px solid;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+        border-color: black;
+        background-color: gold;
+        color: black;
+}
+
+.submit input {
+    background-color: #66FFFF;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: black;
+}
+
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+
+form label {
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}	
